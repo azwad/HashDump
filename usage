@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+use lib qw(/home/toshi/perl/lib);
+use strict;
+use HashDump;
+
+my $xml_data = 'pinterest.rss';
+my $yaml_data = 'tumblrdashboard.yaml';
+my $xml_data2 = 'export.xml';
+my $json_data = 'items.json';
+
+
+#HashDump->load($xml_data);
+#HashDump->load($yaml_data);
+#HashDump->load($xml_data2);
+HashDump->load($json_data);
+
+
+
+
+
