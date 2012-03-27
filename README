@@ -1,0 +1,4 @@
+print data constructure of YAML XML JSON format file.
+
+On the command line, type "./HashDump.pm data.file"
+
